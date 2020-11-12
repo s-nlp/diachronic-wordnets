@@ -4,8 +4,8 @@ This repository contains code and dataset for the Taxonomy Enrichment task for E
 
 Detailed description of the methods is available in the original paper:
 
-* Original paper (be published soon at COLING 2020)
-* Poster (be published soon at COLING 2020)
+* Original paper (to be published soon at COLING 2020)
+* Poster (to be published soon at COLING 2020)
 
 The picture below illustrates the main idea of the underlying approach:
 
