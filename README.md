@@ -9,7 +9,7 @@ Detailed description of the methods is available in the original paper:
 
 The picture below illustrates the main idea of the underlying approach:
 
-![approach image](model_taxonomy-7.pdf)
+![approach image](model_taxonomy.pdf)
 
 If you use the method please cite the following paper:
 
