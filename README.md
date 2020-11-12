@@ -30,7 +30,7 @@ If you use the method please cite the following paper:
 
 ## Datasets
 
-Datasets can be download here:
+Datasets can be downloaded here:
 
 * [English]()
 * [Russian]()
