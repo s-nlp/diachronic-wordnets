@@ -28,8 +28,24 @@ If you use the method please cite the following paper:
 }
 ```
 
-## Dataset
+## Datasets
 
+Datasets can be download here:
+
+* [English]()
+* [Russian]()
 
 ## Usage
+
+```
+git clone --recursive https://github.com/skoltech-nlp/diachronic-wordnets.git
+```
+
+### Baseline
+
+
+### Ranking
+
+
+### Ranking + wiki 
 
