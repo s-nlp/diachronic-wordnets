@@ -30,9 +30,7 @@ If you use the method please cite the following paper:
 
 ## Datasets
 
-Datasets can be downloaded here:
-
-**[download](https://doi.org/10.5281/zenodo.4270478)**
+### Datasets can be downloaded **[here](https://doi.org/10.5281/zenodo.4270478)**
 
 ## Usage
 
