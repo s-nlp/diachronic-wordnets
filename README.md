@@ -30,7 +30,16 @@ If you use the method please cite the following paper:
 
 ## Datasets
 
-### Datasets can be downloaded **[here](https://doi.org/10.5281/zenodo.4270478)**
+We build two diachronic datasets: one for English, another one for Russian based respectively on Princeton WordNet and RuWordNet taxonomies. Each dataset consists of a taxonomy and a set of novel words not included in the taxonomy. 
+
+|     Dataset       | Nouns    | Verbs |
+| :-------------:   | :---:    | :---: |
+| WordNet 1.6-3.0   |  17 043  |  755  |
+| WordNet 1.7-3.0   |  6 161   |  362  |
+| WordNet 2.0-3.0   |  2 620   |  193  |
+| RuWordNet 1.0-2.0 |  14 660  | 2 154 |
+
+**Datasets can be downloaded [here](https://doi.org/10.5281/zenodo.4270478)**
 
 ## Usage
 
