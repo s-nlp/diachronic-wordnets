@@ -32,7 +32,7 @@ If you use the method please cite the following paper:
 
 Datasets can be downloaded here:
 
-** [download](https://doi.org/10.5281/zenodo.4270478) **
+**[download](https://doi.org/10.5281/zenodo.4270478)**
 
 ## Usage
 
