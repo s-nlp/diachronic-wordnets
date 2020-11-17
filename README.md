@@ -61,7 +61,7 @@ We improve the described model by ranking the generated synset candidates. In ad
 
 <img src="https://render.githubusercontent.com/render/math?math=score_{h_{i}} = n \cdot sim(v_o, v_{h_{i}}),">
 
-where <img src="https://render.githubusercontent.com/render/math?math=v_x"> is a vector representation of a word or a synset <img src="https://render.githubusercontent.com/render/math?math=x">, <img src="https://render.githubusercontent.com/render/math?math=h_i"> is a hypernym, <img src="https://render.githubusercontent.com/render/math?math=n"> is the number of occurrences of this hypernym in the merged list, <img src="https://render.githubusercontent.com/render/math?math=sim(v_o, v_{h_{i}})"> is the cosine similarity of the vector of the orphan word <img src="https://render.githubusercontent.com/render/math?math=o"> and hypernym vector <img src="https://render.githubusercontent.com/render/math?math=h_i">.
+where <img src="https://render.githubusercontent.com/render/math?math=v_x"> is a vector representation of a word or a synset <img src="https://render.githubusercontent.com/render/math?math=x">, <img src="https://render.githubusercontent.com/render/math?math=h_{i}"> is a hypernym, <img src="https://render.githubusercontent.com/render/math?math=n"> is the number of occurrences of this hypernym in the merged list, <img src="https://render.githubusercontent.com/render/math?math=sim(v_{o}, v_{h_{i}})"> is the cosine similarity of the vector of the orphan word <img src="https://render.githubusercontent.com/render/math?math=o"> and hypernym vector <img src="https://render.githubusercontent.com/render/math?math=h_{i}">.
 
 
 ### Ranking + wiki 
