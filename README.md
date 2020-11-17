@@ -66,3 +66,10 @@ where <img src="https://render.githubusercontent.com/render/math?math=v_x"> is a
 
 ### Ranking + wiki 
 
+We implement the following Wiktionary features:
+* candidate is present in the Wiktionary hypernyms list for the input word (binary feature),
+* candidate is present in the Wiktionary synonyms list (binary feature),
+* candidate is present in the Wiktionary definition (binary feature),
+* average cosine similarity between the candidate and the Wiktionary hypernyms of the input word.
+
+We extract lists of hypernym synset candidates using the baseline procedure and compute the 4 Wiktionary features for them. In addition to that, we use the score from the previous approach as a feature. To define the feature weights, we train a Logistic Regression model with L2 regularisation on a training dataset which we construct from the older (known) versions of WordNet. 
