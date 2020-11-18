@@ -32,7 +32,7 @@ If you use the method please cite the following paper:
 
 We build two diachronic datasets: one for English, another one for Russian based respectively on Princeton WordNet and RuWordNet taxonomies. Each dataset consists of a taxonomy and a set of novel words not included in the taxonomy. 
 
-### Datasets can be downloaded [here](https://zenodo.org/record/4279821#.X7WDWmgzaUk)
+### Datasets can be downloaded [here](https://doi.org/10.5281/zenodo.4279821)
 
 Statistics:
 
