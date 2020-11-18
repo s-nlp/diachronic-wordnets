@@ -1,0 +1,9 @@
+tqdm
+torch
+tensorflow
+gensim
+numpy
+beautifulsoup4
+networkx
+nltk
+

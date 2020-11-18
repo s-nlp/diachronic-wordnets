@@ -20,6 +20,8 @@ parts/
 sdist/
 var/
 wheels/
+datasets/
+code/baselines/models/*
 pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
@@ -76,6 +78,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+.idea
 
 # IPython
 profile_default/
