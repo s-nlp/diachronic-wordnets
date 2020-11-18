@@ -59,7 +59,7 @@ FastText models can be downloaded from [here](https://fasttext.cc/docs/en/crawl-
 ```
 python3 fasttext_vectorize_en.py <input_dir> <in_version> <out_version>
 ```
-The following arguments are required: `<input_dir> <in_version>` 
+The following arguments are required: `<input_dir>` `<in_version>` 
 Default `<out_version>`: 3.0
 
 * vectorize RuWordNet
@@ -68,7 +68,7 @@ Default `<out_version>`: 3.0
 python3 fasttext_vectorize_ru.py models/cc.ru.300.bin ../../datasets/ruwordnet.db models/vectors/fasttext/ru/ ../../datasets/ru/
 ```
 
-The following arguments are required: `<fasttext_path> <ruwordnetdb_path> <output_path> <data_path>`
+The following arguments are required: `<fasttext_path>` `<ruwordnetdb_path>` `<output_path>` `<data_path>`
 
 ### Baseline
 
