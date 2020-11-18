@@ -52,6 +52,24 @@ git clone --recursive https://github.com/skoltech-nlp/diachronic-wordnets.git
 
 FastText models can be downloaded from [here](https://fasttext.cc/docs/en/crawl-vectors.html): [ru](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ru.300.bin.gz), [en](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.en.300.bin.gz)
 
+### Preprocessing
+
+* vectorize WordNet
+
+```
+python3 fasttext_vectorize_en.py <input_dir> <in_version> <out_version>
+```
+The following arguments are required: `<input_dir> <in_version>` 
+Default `<out_version>`: 3.0
+
+* vectorize RuWordNet
+
+```
+python3 fasttext_vectorize_ru.py models/cc.ru.300.bin ../../datasets/ruwordnet.db models/vectors/fasttext/ru/ ../../datasets/ru/
+```
+
+The following arguments are required: `<fasttext_path> <ruwordnetdb_path> <output_path> <data_path>`
+
 ### Baseline
 
 In this method, top <img src="https://render.githubusercontent.com/render/math?math=k=10"> nearest neighbours of the input word are taken from the pre-trained embedding model (according to the above considerations they should be co-hyponyms). Subsequently,  hypernyms  of those co-hyponyms are extracted from the taxonomy. These hypernyms can also be considered hypernyms of the input word. 
