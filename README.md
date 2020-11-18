@@ -54,6 +54,12 @@ FastText models can be downloaded from [here](https://fasttext.cc/docs/en/crawl-
 
 ### Preprocessing
 
+* create database (for Russian)
+
+```
+python3 ruwordnet/create_ruwordnet.py <input-dir> <output-path.db>
+```
+
 * vectorize WordNet
 
 ```
