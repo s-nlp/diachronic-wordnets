@@ -50,6 +50,8 @@ Statistics:
 git clone --recursive https://github.com/skoltech-nlp/diachronic-wordnets.git
 ```
 
+FastText models can be downloaded from [here](https://fasttext.cc/docs/en/crawl-vectors.html): [ru](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ru.300.bin.gz), [en](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.en.300.bin.gz)
+
 ### Baseline
 
 In this method, top <img src="https://render.githubusercontent.com/render/math?math=k=10"> nearest neighbours of the input word are taken from the pre-trained embedding model (according to the above considerations they should be co-hyponyms). Subsequently,  hypernyms  of those co-hyponyms are extracted from the taxonomy. These hypernyms can also be considered hypernyms of the input word. 
