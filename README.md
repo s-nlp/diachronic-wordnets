@@ -76,10 +76,35 @@ python3 fasttext_vectorize_ru.py models/cc.ru.300.bin ../../datasets/ruwordnet.d
 
 The following arguments are required: `<fasttext_path>` `<ruwordnetdb_path>` `<output_path>` `<data_path>`
 
+* vectorize Wiktionary
+
+### Model run
+
+To start the model you should run the `main.py` file with one required parameter: `<path-to-config-file>`
+
+```
+python3 main.py configs/fasttext/fasttext_private_nouns.json
+```
+
+Examples of config files are provided below for each method
+
 ### Baseline
 
 In this method, top <img src="https://render.githubusercontent.com/render/math?math=k=10"> nearest neighbours of the input word are taken from the pre-trained embedding model (according to the above considerations they should be co-hyponyms). Subsequently,  hypernyms  of those co-hyponyms are extracted from the taxonomy. These hypernyms can also be considered hypernyms of the input word. 
 
+```{json}
+{
+  "synsets_vectors_path": "models/vectors/fasttext/ru/ruwordnet_nouns.txt",
+  "data_vectors_path": "models/vectors/fasttext/ru/nouns_private.txt",
+  "test_path": "../../datasets/ru/nouns_private_no_labels.tsv",
+  "output_path": "predictions/predicted_private_nouns_baseline.tsv",
+  "db_path": "../../datasets/ruwordnet.db",
+  "ruwordnet_path": null,
+  "model": "baseline",
+  "task": "russe",
+  "language": "ru"
+}
+```
 
 ### Ranking
 
@@ -89,6 +114,19 @@ We improve the described model by ranking the generated synset candidates. In ad
 
 where <img src="https://render.githubusercontent.com/render/math?math=v_x"> is a vector representation of a word or a synset <img src="https://render.githubusercontent.com/render/math?math=x">, <img src="https://render.githubusercontent.com/render/math?math=h_{i}"> is a hypernym, <img src="https://render.githubusercontent.com/render/math?math=n"> is the number of occurrences of this hypernym in the merged list, <img src="https://render.githubusercontent.com/render/math?math=sim(v_{o}, v_{h_{i}})"> is the cosine similarity of the vector of the orphan word <img src="https://render.githubusercontent.com/render/math?math=o"> and hypernym vector <img src="https://render.githubusercontent.com/render/math?math=h_{i}">.
 
+```{json}
+{
+  "synsets_vectors_path": "models/vectors/fasttext/ru/ruwordnet_nouns.txt",
+  "data_vectors_path": "models/vectors/fasttext/ru/nouns_private.txt",
+  "test_path": "../../datasets/ru/nouns_private_no_labels.tsv",
+  "output_path": "predictions/predicted_private_nouns_ranked.tsv",
+  "db_path": "../../datasets/ruwordnet.db",
+  "ruwordnet_path": null,
+  "model": "ranked",
+  "task": "russe",
+  "language": "ru"
+}
+```
 
 ### Ranking + wiki 
 
@@ -99,3 +137,20 @@ We implement the following Wiktionary features:
 * average cosine similarity between the candidate and the Wiktionary hypernyms of the input word.
 
 We extract lists of hypernym synset candidates using the baseline procedure and compute the 4 Wiktionary features for them. In addition to that, we use the score from the previous approach as a feature. To define the feature weights, we train a Logistic Regression model with L2 regularisation on a training dataset which we construct from the older (known) versions of WordNet. 
+
+
+```{json}
+{
+  "synsets_vectors_path": "models/vectors/fasttext/ru/ruwordnet_nouns.txt",
+  "data_vectors_path": "models/vectors/fasttext/ru/nouns_private.txt",
+  "test_path": "../../datasets/ru/nouns_private_no_labels.tsv",
+  "output_path": "predictions/predicted_private_nouns_lr.tsv",
+  "db_path": "../../datasets/ruwordnet.db",
+  "ruwordnet_path": null,
+  "wiki_path": "../../datasets/wiki/wiki_ru.jsonlines",
+  "wiki_vectors_path": "models/vectors/fasttext/ru/wiki.txt",
+  "model": "lr",
+  "task": "russe",
+  "language": "ru"
+}
+```
