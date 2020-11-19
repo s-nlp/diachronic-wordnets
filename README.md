@@ -94,15 +94,14 @@ In this method, top <img src="https://render.githubusercontent.com/render/math?m
 
 ```{json}
 {
-  "synsets_vectors_path": "models/vectors/fasttext/ru/ruwordnet_nouns.txt",
-  "data_vectors_path": "models/vectors/fasttext/ru/nouns_private.txt",
-  "test_path": "../../datasets/ru/nouns_private_no_labels.tsv",
-  "output_path": "predictions/predicted_private_nouns_baseline.tsv",
-  "db_path": "../../datasets/ruwordnet.db",
-  "ruwordnet_path": null,
+  "synsets_vectors_path": "models/vectors/fasttext/en/nouns_wordnet_fasttext_2.0-3.0.txt",
+  "data_vectors_path": "models/vectors/fasttext/en/nouns_fasttext_2.0-3.0.txt",
+  "test_path": "../../datasets/en/no_labels_nouns_en.2.0-3.0.tsv",
+  "output_path": "predictions/en/fasttext/predicted_nouns_en_2.0-3.0_baseline.tsv",
+  "db_path": null,
+  "wordnet_path": "../../datasets/WNs/WN2.0",
   "model": "baseline",
-  "task": "russe",
-  "language": "ru"
+  "language": "en"
 }
 ```
 
@@ -121,9 +120,8 @@ where <img src="https://render.githubusercontent.com/render/math?math=v_x"> is a
   "test_path": "../../datasets/ru/nouns_private_no_labels.tsv",
   "output_path": "predictions/predicted_private_nouns_ranked.tsv",
   "db_path": "../../datasets/ruwordnet.db",
-  "ruwordnet_path": null,
+  "wordnet_path": null,
   "model": "ranked",
-  "task": "russe",
   "language": "ru"
 }
 ```
@@ -146,11 +144,10 @@ We extract lists of hypernym synset candidates using the baseline procedure and 
   "test_path": "../../datasets/ru/nouns_private_no_labels.tsv",
   "output_path": "predictions/predicted_private_nouns_lr.tsv",
   "db_path": "../../datasets/ruwordnet.db",
-  "ruwordnet_path": null,
+  "wordnet_path": null,
   "wiki_path": "../../datasets/wiki/wiki_ru.jsonlines",
   "wiki_vectors_path": "models/vectors/fasttext/ru/wiki.txt",
   "model": "lr",
-  "task": "russe",
   "language": "ru"
 }
 ```
