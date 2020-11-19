@@ -151,3 +151,5 @@ We extract lists of hypernym synset candidates using the baseline procedure and 
   "language": "ru"
 }
 ```
+
+Wiki jsonlines can be founded [here](https://doi.org/10.5281/zenodo.4281515).
