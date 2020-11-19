@@ -22,6 +22,8 @@ var/
 wheels/
 datasets/
 code/baselines/models/*
+code/baselines/predictions/*
+code/baselines/configs/*
 pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
