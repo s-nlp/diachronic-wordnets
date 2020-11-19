@@ -136,6 +136,7 @@ We implement the following Wiktionary features:
 
 We extract lists of hypernym synset candidates using the baseline procedure and compute the 4 Wiktionary features for them. In addition to that, we use the score from the previous approach as a feature. To define the feature weights, we train a Logistic Regression model with L2 regularisation on a training dataset which we construct from the older (known) versions of WordNet. 
 
+Wiki jsonlines can be founded [here](https://doi.org/10.5281/zenodo.4281515).
 
 ```{json}
 {
@@ -152,4 +153,3 @@ We extract lists of hypernym synset candidates using the baseline procedure and 
 }
 ```
 
-Wiki jsonlines can be founded [here](https://doi.org/10.5281/zenodo.4281515).
