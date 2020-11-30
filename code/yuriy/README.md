@@ -3,7 +3,7 @@
 Yuriy Nazarov's solution
 
 
-* __Code taken from__
+* __Code is taken from:__
 
 https://gist.github.com/nazarov-yuriy/5060181db266d826841d2599d0dd7fa9
 
