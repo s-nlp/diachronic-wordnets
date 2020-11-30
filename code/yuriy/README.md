@@ -2,7 +2,8 @@
 
 Yuriy Nazarov's solution
 
-* __Code taken from __
+
+* __Code taken from__
 
 https://gist.github.com/nazarov-yuriy/5060181db266d826841d2599d0dd7fa9
 
