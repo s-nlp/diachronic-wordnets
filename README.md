@@ -6,6 +6,7 @@ Detailed description of the methods is available in the original paper:
 
 * Original paper (to be published soon at COLING 2020)
 * Poster (to be published soon at COLING 2020)
+* [ArXiv](https://arxiv.org/abs/2011.11536) version
 
 The picture below illustrates the main idea of the underlying approach:
 
