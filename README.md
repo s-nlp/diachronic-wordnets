@@ -4,8 +4,8 @@ This repository contains code and dataset for the Taxonomy Enrichment task for E
 
 Detailed description of the methods is available in the original paper:
 
-* Original paper (to be published soon at COLING 2020)
-* Poster (to be published soon at COLING 2020)
+* [Original paper](https://www.aclweb.org/anthology/2020.coling-main.276.pdf)
+* [Poster](https://underline.io/events/54/posters/1346/poster/5862-2143---studying-taxonomy-enrichment-on-diachronic-wordnet-versions)
 * [ArXiv](https://arxiv.org/abs/2011.11536) version
 
 The picture below illustrates the main idea of the underlying approach:
