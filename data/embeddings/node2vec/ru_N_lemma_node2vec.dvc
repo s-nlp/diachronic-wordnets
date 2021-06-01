@@ -1,0 +1,4 @@
+outs:
+- md5: 717d0b7261230e068b2bccb650bcc927
+  size: 230360291
+  path: ru_N_lemma_node2vec
