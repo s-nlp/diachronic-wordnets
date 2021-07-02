@@ -1,0 +1,4 @@
+outs:
+- md5: b562a1362da8f5e7dfd2ada051e1ec5d
+  size: 41253869
+  path: gat_ruwordnet_verbs.txt

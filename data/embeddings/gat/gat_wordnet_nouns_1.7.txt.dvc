@@ -1,0 +1,4 @@
+outs:
+- md5: 5e967ea2fd353281fd560cdbb6dae9cf
+  size: 464505074
+  path: gat_wordnet_nouns_1.7.txt

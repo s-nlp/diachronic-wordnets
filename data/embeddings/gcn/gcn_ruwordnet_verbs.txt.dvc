@@ -1,0 +1,4 @@
+outs:
+- md5: 05bc958b56e29c8e356b5dbdf9df2a09
+  size: 23754862
+  path: gcn_ruwordnet_verbs.txt

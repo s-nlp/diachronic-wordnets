@@ -1,0 +1,4 @@
+outs:
+- md5: 52adc8b2672323c68646419da171c911
+  size: 72729521
+  path: gat_wordnet_verbs_1.6.txt

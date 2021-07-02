@@ -1,0 +1,4 @@
+outs:
+- md5: ee9a858817bc3ee32c31dca311afca28
+  size: 15314021
+  path: sage_wordnet_verbs_2.0.txt

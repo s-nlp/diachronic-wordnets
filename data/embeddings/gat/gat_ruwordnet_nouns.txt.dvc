@@ -1,0 +1,4 @@
+outs:
+- md5: 7115e00b5fb23ffcdc620dd0a67d0ec0
+  size: 248785799
+  path: gat_ruwordnet_nouns.txt

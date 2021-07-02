@@ -1,0 +1,4 @@
+outs:
+- md5: e6b5a5906ff6b2064be77645ccb037c3
+  size: 34446514
+  path: gcn_wordnet_verbs_2.0.txt

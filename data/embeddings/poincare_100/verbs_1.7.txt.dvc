@@ -1,0 +1,4 @@
+outs:
+- md5: c2a8b5ce55c667852ff249eb8789d1ca
+  size: 26900282
+  path: verbs_1.7.txt

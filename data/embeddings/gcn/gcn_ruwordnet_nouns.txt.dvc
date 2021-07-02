@@ -1,0 +1,4 @@
+outs:
+- md5: 7c089cecaeee36e566fe6d361e78a62d
+  size: 103163681
+  path: gcn_ruwordnet_nouns.txt

@@ -1,0 +1,4 @@
+outs:
+- md5: 0979719fdfb5fe55654edb8c6c18e935
+  size: 10909168
+  path: sage_ruwordnet_verbs.txt

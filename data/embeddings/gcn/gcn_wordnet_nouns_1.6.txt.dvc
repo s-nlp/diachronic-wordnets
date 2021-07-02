@@ -1,0 +1,4 @@
+outs:
+- md5: ec81a4efbc0d08e6154ce4a5d20c0903
+  size: 189500574
+  path: gcn_wordnet_nouns_1.6.txt

@@ -1,0 +1,4 @@
+outs:
+- md5: e1008bcc91680fb000707ded628b7294
+  size: 49783767
+  path: sage_ruwordnet_nouns.txt

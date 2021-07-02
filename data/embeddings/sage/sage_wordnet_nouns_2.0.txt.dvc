@@ -1,0 +1,4 @@
+outs:
+- md5: 0526ef4e88ed029607894446e57226a1
+  size: 92181519
+  path: sage_wordnet_nouns_2.0.txt
