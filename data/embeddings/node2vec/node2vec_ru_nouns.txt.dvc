@@ -1,0 +1,4 @@
+outs:
+- md5: ee949370f7784073549b3b5051d70960
+  size: 98331118
+  path: node2vec_ru_nouns.txt

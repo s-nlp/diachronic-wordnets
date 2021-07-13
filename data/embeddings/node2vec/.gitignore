@@ -2,3 +2,5 @@
 /en_n_lemma_node2vec
 /ru_N_lemma_node2vec
 /ru_V_lemma_node2vec
+/node2vec_ru_nouns.txt
+/node2vec_ru_verbs.txt

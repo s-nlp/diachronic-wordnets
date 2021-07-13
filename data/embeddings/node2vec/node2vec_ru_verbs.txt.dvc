@@ -1,0 +1,4 @@
+outs:
+- md5: 6c1c2fc47d08da13f24a1cdd992283d5
+  size: 24526901
+  path: node2vec_ru_verbs.txt
