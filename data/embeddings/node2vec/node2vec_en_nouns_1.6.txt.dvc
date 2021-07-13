@@ -1,0 +1,4 @@
+outs:
+- md5: 3967a9fa8c3dd161c601fd3c1dfc6544
+  size: 225090760
+  path: node2vec_en_nouns_1.6.txt

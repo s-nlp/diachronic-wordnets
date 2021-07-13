@@ -1,0 +1,4 @@
+outs:
+- md5: d530ca1774f94b73e86165be25ac6e3f
+  size: 44067232
+  path: node2vec_en_verbs_2.0.txt

@@ -4,3 +4,6 @@
 /ru_V_lemma_node2vec
 /node2vec_ru_nouns.txt
 /node2vec_ru_verbs.txt
+/node2vec_en_nouns_1.6.txt
+/node2vec_en_nouns_2.0.txt
+/node2vec_en_verbs_2.0.txt
