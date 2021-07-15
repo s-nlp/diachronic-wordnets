@@ -1,0 +1,4 @@
+outs:
+- md5: 308d6ae0b839c814c69c6bdeddd6c79e
+  size: 21450769
+  path: nouns_words_node2vec.1.7-3.0.txt

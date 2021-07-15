@@ -1,0 +1,4 @@
+outs:
+- md5: 8bc81f2ec106aff6f6accc06eeb46f82
+  size: 460182235
+  path: nouns_wordnet_node2vec_1.7-3.0.txt

@@ -1,0 +1,4 @@
+outs:
+- md5: 0a93824f2b58361b494bc3f7f036c565
+  size: 73860196
+  path: verbs_wordnet_node2vec_1.6-3.0.txt
